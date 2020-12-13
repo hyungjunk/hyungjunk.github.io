@@ -9,7 +9,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "ko-KR"
-title: "Junique Blog"
+title: "Junique"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Jun Kim"
@@ -87,9 +87,16 @@ analytics:
 author:
   name: "Jun Kim"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Developer"
+  bio: "Endless one step a day"
   location: "Korea"
   email: "khjgd2@gmail.com"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hyungjunk"
+    - label: "Pixabay"
+      icon: "fab fa-fw fas fa-camera"
+      url: "https://pixabay.com/ko/users/khjgd2-5467834/"
 
 # Reading Files
 include:
@@ -217,7 +224,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
