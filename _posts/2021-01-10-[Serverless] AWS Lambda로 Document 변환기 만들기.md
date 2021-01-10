@@ -1,5 +1,3 @@
-## 요약
-
 AWS Lambda에서 문서 Converting tool인 Libreoffice를 이용해 xlsx 파일을 pdf로 변환하는 기능을 구현하던 중 겪은 어려움과 주의사항을 기술합니다. 추후 본 기능을 고도화할 때 참고하면 도움될만한 내용을 담고 있습니다.
 
 ## 목표
